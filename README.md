@@ -2,7 +2,7 @@
 
 This is a Swift project for asynchronously downloading images with pagination. The project is structured with several classes and files to manage network requests, caching, and UI display.
 
-Classes and Files:
+# Classes and Files:
 NetworkManager.swift:
 This class handles network requests for downloading image data asynchronously. It includes functions to fetch images from remote URLs.
 CacheManager.swift:
@@ -18,19 +18,21 @@ ImageCell.xib is a nib file representing the UI layout for each cell in the coll
 ImageCell.swift is the corresponding class file for ImageCell.xib. It manages the UI elements inside the cell and populates them with image data.
 ImagesViewModel.swift:
 ImagesViewModel acts as the intermediary between the ImagesViewController and the NetworkManager. It handles business logic related to fetching and managing image data.
-Usage:
+
+# Usage:
 Import the required files into your Swift project.
 Initialize an instance of ImagesViewController and set it up to display images.
 ImagesViewController will interact with ImagesViewModel, which in turn communicates with NetworkManager to fetch image data asynchronously.
 Pagination logic can be implemented within ImagesViewModel to load more images as the user scrolls through the collection view.
-Requirements:
+
+#Requirements:
 Swift 5 or later
 iOS 11.0 or later (if targeting iOS)
 Xcode 11 or later
 Installation:
 Simply add the provided files to your Xcode project.
 
-License:
+#License:
 This project is licensed under the MIT License.
 
 Author:
